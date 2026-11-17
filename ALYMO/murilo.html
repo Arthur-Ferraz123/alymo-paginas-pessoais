@@ -1,52 +1,196 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="icon" type="image/png" href="logo_alymo.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alymo - Murilo</title>
-    <p>ㅤ</p>
-    <a href="index.html"><img src="voltar.png" alt="voltar" height="20"></a>
-    <hr>
-    <h1>Murilo de Borba Xavier</h1>
-    <hr>
-    <img src="Quem_Eu_Sou.jpeg" alt="Murilo de Borba Xavier" height="700">
-    <hr>
-    <li>Me chamo Murilo de Borba Xavier, fiz 15 anos no dia 17, tenho um irmão chamado Felipe. Eu moro em <a href="https://pt.wikipedia.org/wiki/Itapecerica_da_Serra" target="_blank">Itapecerica de Serra</a>, bairro Potuverá, é uma cidade rural mas bem bonita.</li> <br> <br> 
-<img src="itap.jpg" alt="foto Potuverá" height="250">
-     <li>Minha antiga escola fica no bairro São Marcos em Itapecerica da Serra, o nome é <a href="https://colegiolebiste.com.br/sobre-nos/" target="_blank">Colégio Lebiste</a>.</p></li>
-<img src="lesbiste.jpg" alt="foto escola" height="250">    </ul>
-     <hr>
-
-    <h2>Curiosidades: </h2>
-
-    <p>Tenho 10 cachorros: Evee, Pepa, Cacau, Belinha, Luna, Caleu, Melodi, Rabito, Rambo e Pingo</p>
-
-    <hr>
-
-    <h2>Lugares que eu conheço: </h2>
-    <ul>
-    <li><p>Já fui no cemitério/templo japonês <a href="https://pt.wikipedia.org/wiki/Kinkaku-ji_do_Brasil" target="_blank">Kinkaku ji</a> em Itapecerica da Serra-SP.</p> </li>
-<img src="kinkakuji.jpeg" alt="foto kinkakuji" height="250">
-    <li><p>Já fui em <a href="https://pt.wikipedia.org/wiki/Ol%C3%ADmpia_(S%C3%A3o_Paulo)" target="_blank">Olimpia</a>, uma cidadea com o maior parque aquático do Brasil, <a href="https://pt.wikipedia.org/wiki/Thermas_dos_Laranjais" target="_blank">Thermas dos Laranjais</a>.</p></li>
-<img src="olimpia.jpg" alt="foto olimpia" height="250">
-    <li><p>Já fui em <a href="https://pt.wikipedia.org/wiki/Curitiba" target="_blank">Curitiba</a>, capital do Parána, uma cidade muito linda e com muita cultura.</p></li>
-<img src="curitiba.jpg" alt="foto curitiba" height="250">    </ul>
-    
-    <hr>
-
-    <h2>Lugares que quero conhecer: </h2>
-
-    <ul>
-        <li><p>Quero conhecer a <a href="https://pt.wikipedia.org/wiki/R%C3%BAssia" target="_blank">Russia</a>, principalmente por sua cultura e pela neve. </p></li>
-<img src="turismo-na-russia-capa.jpg" alt="foto Russia" height="250">    
-        <li><p>Quero conhecer o <a href="https://pt.wikipedia.org/wiki/Jap%C3%A3o" target="_blank">Japão</a>, pela cultura, comida e as atrações turísticas. </p> </li>
-<img src="japao.jpg" alt="foto japão" height="250">    
-        <li><p>Quero conhecer a <a href="https://pt.wikipedia.org/wiki/Inglaterra" target="_blank">Inglaterra</a>, pelo Big Bang e as outras atrações turísticas.</p></li>
-<img src="inglaterra.jpg" alt="foto inglaterra" height="250">
-    </ul>
-    <p></p>
+    <title>alymo - murilo</title>
+    <link rel="icon" type="image/png" href="logo_alymo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="murilo.css">
 </head>
-<body>   
+<body>
+
+    <!-- menu la de cima -->
+    <nav>
+        <a href="index.html" class="logo">
+            <div class="formas"><span class="f1"></span><span class="f2"></span><span class="f3"></span><span class="f4"></span></div>
+            alymo
+        </a>
+        <div class="links">
+            <a href="index.html">início</a>
+            <a href="arthur.html">arthur</a>
+            <a href="lorenzoPagina.html">lorenzo</a>
+            <a href="yasmin.html">yasmin</a>
+            <a href="murilo.html" class="ativo">murilo</a>
+        </div>
+        <a href="index.html" class="btn borda">← voltar</a>
+    </nav>
+
+    <!-- topo com o nome gigante -->
+    <section class="hero">
+        <div class="bicho b1" title="yasmin"><i></i><i></i></div>
+        <div class="bicho b2" title="lorenzo"><i></i><i></i></div>
+        <div class="bicho b3" title="arthur"><i></i><i></i></div>
+        <div class="bicho b4" title="murilo"><i></i><i></i></div>
+
+        <p class="oi">oi! prazer, eu sou o</p>
+        <h1>murilo</h1>
+
+        <div class="hero-baixo">
+            <img src="MuriloFoto.jpeg" alt="murilo" class="eu">
+            <div>
+                <p>Murilo de Borba Xavier, 15 anos, de Itapecerica da Serra, São Paulo. Gosto de Banco de Dados e POO.</p>
+                <a href="#sobre" class="btn preto">conhecer mais</a>
+                <a href="#lugares" class="btn cor">meus lugares</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="frase">
+        <span class="enfeite e1"></span><span class="enfeite e2"></span><span class="enfeite e3"></span><span class="enfeite e4"></span>
+        <h2>Eu <span class="verdinho">amo a natureza</span>, viajar para <span class="azulzinho">novos lugares</span> e curtir minha cidade <span class="laranja">Itapecerica da Serra</span></h2>
+    </section>
+
+    <section class="numeros">
+        <div class="num verde"><b>15</b>anos de idade</div>
+        <div class="num azul"><b>10</b>cachorros em casa</div>
+        <div class="num pessego"><b>1</b>irmão (Felipe)</div>
+        <div class="num rosa"><b>3+</b>lugares que já conheci</div>
+    </section>
+
+    <section id="sobre">
+        <h2>Quem eu sou</h2>
+        <p class="sub">Um pouquinho sobre mim, onde eu moro e onde estudei.</p>
+        <div class="duas">
+            <div class="info">
+                <div class="item">
+                    <span>01</span>
+                    <h3>Eu</h3>
+                    <p><b>Nome:</b> Murilo de Borba Xavier<br><b>Idade:</b> 15 anos (aniversário dia 17)<br><b>Família:</b> Tenho um irmão chamado Felipe</p>
+                </div>
+                <div class="item">
+                    <span>02</span>
+                    <h3>Onde eu moro</h3>
+                    <p>Bairro Potuverá, em <a href="https://pt.wikipedia.org/wiki/Itapecerica_da_Serra" target="_blank">Itapecerica da Serra</a> — uma cidade rural e bem bonita.</p>
+                </div>
+                <div class="item">
+                    <span>03</span>
+                    <h3>Onde eu estudava</h3>
+                    <p><a href="https://colegiolebiste.com.br/sobre-nos/" target="_blank">Colégio Lebiste</a>, no bairro São Marcos em Itapecerica da Serra.</p>
+                </div>
+            </div>
+            <div class="mosaico">
+                <img src="itap.jpg" alt="potuverá - itapecerica da serra">
+                <div class="q1"></div>
+                <img src="lesbiste.jpg" alt="colégio lebiste">
+                <div class="q2"></div>
+                <img src="kinkakuji.jpeg" alt="itapecerica da serra">
+                <div class="q3"></div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Curiosidades sobre mim</h2>
+        <p class="sub">As coisas que fazem parte da minha rotina e da minha família.</p>
+        <div class="cards">
+            <div class="card">
+                <img src="Quem_Eu_Sou.jpeg" alt="meus cachorros">
+                <h3>Meus 10 Cachorros</h3>
+                <p>Evee, Pepa, Cacau, Belinha, Luna, Caleu, Melodi, Rabito, Rambo e Pingo!</p>
+            </div>
+            <div class="card">
+                <img src="itap.jpg" alt="potuverá">
+                <h3>Vida no Interior</h3>
+                <p>Moro no bairro Potuverá, rodeado de verde e tranquilidade em Itapecerica.</p>
+            </div>
+            <div class="card">
+                <img src="kinkakuji.jpeg" alt="kinkaku-ji">
+                <h3>Templo Japonês</h3>
+                <p>Perto de casa fica o famoso templo e cemitério japonês Kinkaku-ji do Brasil.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner">
+        <div>
+            <h2>Natureza, família e... <span>tranquilidade</span>!</h2>
+            <p>Sempre pronto para conhecer culturas novas pelo Brasil e pelo mundo.</p>
+            <a href="#lugares" class="btn cor">ver meus lugares</a>
+        </div>
+        <div class="bicho"><i></i><i></i></div>
+    </section>
+
+    <section id="lugares">
+        <h2>Lugares que eu conheço</h2>
+        <p class="sub">Clica em cada um pra saber mais.</p>
+        <div class="lugares">
+            <a href="https://pt.wikipedia.org/wiki/Iguape" target="_blank" class="lugar">
+                <img src="iguape.jpg" alt="iguape">
+                <span>01</span>
+                <h3>Iguape</h3>
+                <p>SP</p>
+            </a>
+            <a href="https://pt.wikipedia.org/wiki/Ol%C3%ADmpia_(S%C3%A3o_Paulo)" target="_blank" class="lugar">
+                <img src="olimpia.jpg" alt="olímpia">
+                <span>02</span>
+                <h3>Olímpia</h3>
+                <p>Thermas dos Laranjais, SP</p>
+            </a>
+            <a href="https://pt.wikipedia.org/wiki/Curitiba" target="_blank" class="lugar">
+                <img src="curitiba.jpg" alt="curitiba">
+                <span>03</span>
+                <h3>Curitiba</h3>
+                <p>Paraná, Brasil</p>
+            </a>
+        </div>
+
+        <h2>Lugares que quero conhecer</h2>
+        <p class="sub">Meus sonhos.</p>
+        <div class="lugares">
+            <a href="https://pt.wikipedia.org/wiki/R%C3%BAssia" target="_blank" class="lugar">
+                <img src="turismo-na-russia-capa.jpg" alt="rússia">
+                <span>01</span>
+                <h3>Rússia</h3>
+                <p>Cultura e neve</p>
+            </a>
+            <a href="https://pt.wikipedia.org/wiki/Jap%C3%A3o" target="_blank" class="lugar">
+                <img src="japao.jpg" alt="japão">
+                <span>02</span>
+                <h3>Japão</h3>
+                <p>Cultura e comida</p>
+            </a>
+            <a href="https://pt.wikipedia.org/wiki/Inglaterra" target="_blank" class="lugar">
+                <img src="inglaterra.jpg" alt="inglaterra">
+                <span>03</span>
+                <h3>Inglaterra</h3>
+                <p>Big Ben e turismo</p>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <a href="index.html" class="logo">
+                <div class="formas"><span class="f1"></span><span class="f2"></span><span class="f3"></span><span class="f4"></span></div>
+                alymo
+            </a>
+            <p>quatro amigos, quatro páginas.</p>
+        </div>
+        <div>
+            <h4>Páginas</h4>
+            <a href="index.html">início</a>
+            <a href="arthur.html">arthur</a>
+            <a href="lorenzoPagina.html">lorenzo</a>
+            <a href="yasmin.html">yasmin</a>
+            <a href="murilo.html">murilo</a>
+        </div>
+        <div>
+            <h4>Feito por</h4>
+            <p>Murilo de Borba Xavier</p>
+        </div>
+        <a href="#" class="topo">↑</a>
+    </footer>
+
 </body>
 </html>
