@@ -531,12 +531,15 @@ figcaption {
 
 .banner .bicho {
     position: static;
-    width: 330px;
-    height: 120px;
+    height: 140px;
+    width: 140px;
     background: #ff6d2e;
     border-radius: 30px;
     transform: rotate(10deg);
     gap: 14px;
+
+    flex-shrink: 0;
+    max-width: 100%;  
 }
 
 .banner .bicho i {
@@ -648,6 +651,8 @@ footer .topo {
     .hero .bicho { transform: scale(0.6); }
     .hero-baixo, .duas, .antes, .banner, footer { flex-direction: column; text-align: center; }
     .banner h2 { text-align: center; }
+    .banner p {padding-right: 0; }
+    .banner .bicho{ margin-top: 2rem;}
     .cards, .lugares, .compilado-imagens { grid-template-columns: 1fr 1fr; }
     figure img { height: auto; }
 }
