@@ -1,83 +1,233 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="icon" type="image/png" href="logo_alymo.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alymo - Arthur</title>
-    <p>ㅤ</p>
-    <a href="index.html"><img src="voltar.png" alt="voltar" height="20"></a>
-    <hr>
-    <h1>Arthur Silva Ferraz</h1>
-    <hr>
-    <img src="WhatsApp Image 2026-05-21 at 11.07.53 AM.jpeg" alt="Arthur Silva Ferraz" type="image/png" width="1000">
-    <hr>
-    <h2>Quem eu sou: </h2>
-    <p><b>Nome:</b> Arthur Silva Ferraz <br> <b>Data de nascimento:</b> 18/05/2011 <br> <b>Idade:</b> 15 anos </p>
-    <hr>
-    <h2>Onde eu moro: </h2>
-    <p>Moro na Vila Cruz das Almas</p>
-    <img src="foto do meu predio.jpg" type="image/jpg" width="350">
-    <hr>
-    <h2>Onde eu estudava: </h2>
-    <p>Eu estudava no Colégio Orlando Garcia da Silveira</p>
-    <img src="colégio orlando garcia.png" type="image/png">
-    <hr>
-    <h2>Curiosidades: </h2>
-    <ul>
-        <li>Sou viciado em música</li>
-        <li>Não gosto de queijo</li>
-        <li>Estou aprendendo a tocar violão</li>
-    </ul>
-    <hr>
-    <h2>Lugares que eu conheço: </h2>
-    <p>Já viajei para:</p>
-    <ol>
-        <li><a href="https://pt.wikipedia.org/wiki/Estados_Unidos" target="_blank">Estados Unidos</a></li>
-        <img src="Estados unidos.jpg" alt="Imagem de Orlando, Florida">
-        <p></p>
-
-        <li><a href="https://pt.wikipedia.org/wiki/Natal_(Rio_Grande_do_Norte)" target="_blank">Natal - Rio Grande do Norte</a></li>
-        <img src="Natal.jpg" alt="Imagem do Morro do Careca, Natal">
-        <p></p>
-
-        <li><a href="https://pt.wikipedia.org/wiki/Paris" target="_blank">Paris</a></li>
-        <img src="Paris.jpg" alt="Imagem de Paris com a Torre Eiffel no fundo">
-        <p></p>
-
-        <li><a href="https://pt.wikipedia.org/wiki/Veneza" target="_blank">Veneza</a></li>
-        <img src="Veneza.webp" width="540" alt="Imagem das ruas de Veneza, Itália">
-        <p></p>
-
-        <li><a href="https://pt.wikipedia.org/wiki/Gramado" target="_blank">Gramado</a></li>
-        <img src="Gramado.jpg" width="540" alt="Imagem das ruas de Gramado">
-        <p></p>
-    </ol>
-    <hr>
-    <h2>Lugares que quero conhecer: </h2>
-    <p>Quero conhecer:</p>
-    <ol>
-        <li><a href="https://pt.wikipedia.org/wiki/Inglaterra" target="_blank">Inglaterra</a></li>
-        <img src="Inglaterra.jpg" width="540" alt="Imagem de Londres, Inglaterra">
-        <p></p>
-
-        <li><a href="https://pt.wikipedia.org/wiki/Alemanha" target="_blank">Alemanha</a></li>
-        <img src="Alemanha.jpg" width="540" alt="Imagem de alguma cidade da Alemanha">
-        <p></p>
-
-        <li><a href="https://pt.wikipedia.org/wiki/R%C3%BAssia" target="_blank">Rússia</a></li>
-        <img src="Russia.webp" alt="Imagem de Moscou, Rússia" width="540">
-        <p></p>
-
-        <li><a href="https://pt.wikipedia.org/wiki/China" target="_blank">China</a></li>
-        <img src="China.jpg" alt="Imagem de Shangai, China" width="540">
-        <p></p>
-
-        <li><a href="https://pt.wikipedia.org/wiki/Canad%C3%A1" target="_blank">Canadá</a></li>
-        <img src="Canada.jpg" width="540" alt="Imagem de um rio nas montanhas do Canadá">
-    </ol>
-    <p></p>
+    <title>alymo - arthur</title>
+    <link rel="icon" type="image/png" href="logo_alymo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="arthur.css">
 </head>
-<body>   
+<body>
+
+    <!--------------- TOPBAR ------------------->
+    <nav>
+        <a href="index.html" class="logo">
+            <div class="formas"><span class="f1"></span><span class="f2"></span><span class="f3"></span><span class="f4"></span></div>
+            alymo
+        </a>
+        <div class="links">
+            <a href="index.html">início</a>
+            <a href="arthur.html" class="ativo">arthur</a>
+            <a href="lorenzoPagina.html">lorenzo</a>
+            <a href="yasmin.html" >yasmin</a>
+            <a href="murilo.html">murilo</a>
+        </div>
+        <a href="index.html" class="btn borda">← voltar</a>
+    </nav>
+
+    <!---------- HERO -------->
+    <section class="hero">
+        <div class="bicho b1" title="yasmin"><i></i><i></i></div>
+        <div class="bicho b2" title="lorenzo"><i></i><i></i></div>
+        <div class="bicho b3" title="arthur"><i></i><i></i></div>
+        <div class="bicho b4" title="murilo"><i></i><i></i></div>
+
+        <p class="oi">oi! prazer, eu sou o</p>
+        <h1>arthur</h1>
+
+        <div class="hero-baixo">
+            <img src="imgArthur/arthur1.jpg" alt="Arthur" class="eu">
+            <div>
+                <p>Arthur Silva Ferraz, 15 anos, da Vila Cruz das Almas, São Paulo. Hiperfoco em música e fascínio pela tecnologia.</p>
+                <a href="#sobre" class="btn preto">conhecer mais</a>
+                <a href="#lugares" class="btn cor">meus lugares</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="frase">
+        <span class="enfeite e1"></span><span class="enfeite e2"></span><span class="enfeite e3"></span><span class="enfeite e4"></span>
+        <h2>Eu <span class="laranja">gosto de ver como são feitas as coisas</span>: <span class="azulzinho">maquinas</span>, <span class="verdinho">sistemas</span>,<span class="laranja"> músicas</span>, <span class="roxo">eletronicos</span>, etc.</h2>
+    </section>
+
+    <section class="numeros">
+        <div class="num azul"><b>15</b>anos de idade</div>
+        <div class="num rosa"><b>18/05</b>meu aniversário</div>
+        <div class="num verde"><b>1</b>mês aprendendo alemão</div>
+        <div class="num pessego"><b>5</b>lugares que já conheci</div>
+    </section>
+
+    <section id="sobre">
+        <h2>Quem eu sou</h2>
+        <p class="sub">Um pouquinho sobre mim, onde eu moro e onde estudei.</p>
+        <div class="duas">
+            <div class="info">
+                <div class="item">
+                    <span>01</span>
+                    <h3>Eu</h3>
+                    <p><b>Nome:</b> Arthur Silva Ferraz<br><b>Data de nascimento:</b> 18/05/2011<br><b>Idade:</b> 15 anos</p>
+                </div>
+                <div class="item">
+                    <span>02</span>
+                    <h3>Onde eu moro</h3>
+                    <p>Vila Cruz das Almas, na zona norte de São Paulo.</p>
+                </div>
+                <div class="item">
+                    <span>03</span>
+                    <h3>Onde eu estudava</h3>
+                    <p>Colégio Orlando Garcia da Silveira.</p>
+                </div>
+            </div>
+            <div class="mosaico">
+                <img src="imgArthur/vila_cruz_das_almas.webp" alt="pirituba">
+                <div class="q1"></div>
+                <img src="imgArthur/colégio orlando garcia.png" alt="Orlando Garcia">
+                <div class="q2"></div>
+                <img src="imgArthur/foto_do_meu_predio.webp" alt="Prédio onde moro">
+                <div class="q3"></div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Curiosidades sobre mim</h2>
+        <p class="sub">As coisas que eu mais gosto (Ou desgosto): </p>
+        <div class="cards">
+            <div class="card">
+                <img src="imgArthur/show_brandao.jpg" alt="Imagem de um show">
+                <h3>Musica</h3>
+                <p>Sou viciado em ouvir música. Já tentei até produzir mas sou pessimo. Um dia quero ir num show de algum dos artistas que gosto.</p>
+            </div>
+            <div class="card">
+                <img src="imgArthur/queijo.jpeg" alt="queijo">
+                <h3>Não gosto de queijo</h3>
+                <p>Eu só não gosto de queijo, e todo mundo me julga por isso.</p>
+            </div>
+            <div class="card">
+                <img src="imgArthur/violao.webp" alt="violão">
+                <h3>"Toco" violão</h3>
+                <p>Não sou bom mas sei o basico. Quero voltar a praticar mas não tive tempo no ano.</p>
+            </div>
+            <div class="card">
+                <img src="imgArthur/kit.jpeg" alt="violino">
+                <h3>Meu sonho</h3>
+                <p>No futuro, quero fazer faculdade em outro país, para viver outra cultura, ter mais oportunidades de crescer e viver como eu quero.</p>
+            </div>
+            <div class="card">
+                <img src="imgArthur/chip_arduino.jpg" alt="gatas" class="gatas">
+                <h3>Processo de criação</h3>
+                <p>Me interesso por qualquer coisa que mostre como algo é feito, ou que faça algo novo usando engenharia.</p>
+            </div>
+            <div class="card">
+                <img src="imgArthur/colecao_tenis.jpeg" alt="Minha coleção de tênis">
+                <h3>Tênis </h3>
+                <p>Tenho uma coleção de tênis</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- galeria das minhas coisas -->
+    <section>
+        <h2>Albuns que mais ouvi:</h2>
+        <p class="sub">Alguns albuns musicais que me impactaram:</p>
+
+        <div class="compilado-imagens">
+            <img src="imgArthur/333.jpeg" alt="333">
+            <img src="imgArthur/caos_dlx.jpg" alt="CAOS">
+            <img src="imgArthur/psiko_radio.avif" alt="Psiiiko radio">
+            <img src="imgArthur/xxxtentacion_album.jpg" alt="? - XXXTentacion">
+            <img src="imgArthur/iceman.jpg" alt="ICEMAN">
+            <img src="imgArthur/garoto_oceano.jpg" alt="Garoto Oceano">
+            <img src="imgArthur/isso_e_trap_mixtape.jpg" alt="Brandão">
+            <img src="imgArthur/OPROPRIO.webp" alt="Opropio - Yago Opropio">
+        </div>
+
+        <h2>Meus tênis:</h2>
+        <p class="sub">Minha coleção completa:</p>
+        <div class="compilado-imagens">
+            <img src="imgArthur/stadium_90.webp" alt="Jordan Stadium 90 Metallic Gold">
+            <img src="imgArthur/full_force.webp" alt="Nike Full Force Vermelho e Branco">
+            <img src="imgArthur/midcity.avif" alt="Adidas Midcity Low branco">
+            <img src="imgArthur/hoodland_suede.jpg" alt="Nike Hoodland Suede Haystack">
+            <img src="imgArthur/caldrone.webp" alt="Vans Caldrone preto">
+            <img src="imgArthur/nb_480.avif" alt="New Balance 480 Vinho">
+
+        </div>
+
+        <h2>Jogos favoritos:</h2>
+        <p class="sub">Gosto muito de jogar, os que mais gosto de jogar são:</p>
+        <div class="compilado-imagens">
+            <img src="imgArthur/valorant.jpg" alt="Valorant">
+            <img src="imgArthur/celeste.jpg" alt="Celeste">
+            <img src="imgArthur/fortnite.webp" alt="Fortnite">
+            <img src="imgArthur/Minecraft.png" alt="Minecraft">
+        </div>
+    </section>
+
+    <section class="banner">
+        <div>
+            <h2>Por que me interesso pela <span>tecnologia</span>?</h2>
+            <p>Desde mais novo a tecnologia é presente na minha vida. Os jogos foram uma forma de me conectar e interagir com o mundo e pessoas. A internet me permitiu explorar a música que gosto tanto. Mais tarde, a engenharia mecanica e de sistemas me deu uma perspectiva do que posso fazer no futuro.</p>
+            <a href="#lugares" class="btn cor">ver meus lugares</a>
+        </div>
+        <div class="bicho b3"><i></i><i></i></div>
+    </section>
+
+    <section id="lugares">
+        <h2>Lugares que eu conheço</h2>
+        <p class="sub">Clica em cada um pra saber mais.</p>
+        <div class="lugares">
+            <a href="https://pt.wikipedia.org/wiki/Orlando" target="_blank" class="lugar"><img src="imgArthur/orlando.avif" alt="Imagem de Orlando, Florida"><span>01</span><h3>Orlando</h3><p>FL, Estados Unidos</p></a>
+
+            <a href="https://pt.wikipedia.org/wiki/Natal_(Rio_Grande_do_Norte)" target="_blank" class="lugar"><img src="imgArthur/Natal.jpg" alt="Imagem do Morro do Careca, Natal">
+            <span>02</span><h3>Natal</h3><p>RN, Brasil</p></a>
+
+            <a href="https://pt.wikipedia.org/wiki/Paris" target="_blank" class="lugar"><img src="imgArthur/Paris.jpg" alt="Imagem de Paris com a Torre Eiffel no fundo"><span>03</span><h3>Paris</h3><p>IDF, França</p></a>
+
+            <a href="https://pt.wikipedia.org/wiki/Veneza" target="_blank" class="lugar"><img src="imgArthur/Veneza.webp" alt="Imagem das ruas de Veneza, Itália"><span>04</span><h3>Veneza</h3><p>VE, Itália</p></a>
+
+            <a href="https://pt.wikipedia.org/wiki/Santiago_(Chile)" target="_blank" class="lugar"><img src="imgArthur/santiago.webp" alt="Imagem das ruas de Gramado"><span>05</span><h3>Santiago</h3><p>RM, Chile</p></a>
+        </div>
+
+        <h2>Lugares que quero conhecer</h2>
+        <p class="sub">Minha listinha de sonhos.</p>
+        <div class="lugares">
+            <a href="https://pt.wikipedia.org/wiki/Londres" target="_blank" class="lugar"><img src="imgArthur/Inglaterra.jpg" alt="Imagem de Londres"><span>01</span><h3>Londres</h3><p>UK, Europa</p></a>
+
+            <a href="https://pt.wikipedia.org/wiki/Karlsruhe" target="_blank" class="lugar"><img src="imgArthur/kit.jpeg" alt="Karlsruhe Institute of Technology (KIT)"><span>02</span><h3>Karlsruhe</h3><p>Baden-Württemberg, Alemanha</p></a>
+
+            <a href="https://pt.wikipedia.org/wiki/Quioto" target="_blank" class="lugar"><img src="imgArthur/kyoto.jpg" alt="Kyoto"><span>03</span><h3>Kyoto</h3><p>Kyoto, Japão</p></a>
+
+            <a href="https://pt.wikipedia.org/wiki/Xangai" target="_blank" class="lugar"><img src="imgArthur/xangai.webp" alt="Xangai"><span>04</span><h3>Xangai</h3><p>HU, China</p></a>
+
+            <a href="https://pt.wikipedia.org/wiki/Toronto" target="_blank" class="lugar"><img src="imgArthur/toronto.jpg" alt="Toronto"><span>05</span><h3>Toronto</h3><p>ON, Canada</p></a>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <a href="index.html" class="logo">
+                <div class="formas"><span class="f1"></span><span class="f2"></span><span class="f3"></span><span class="f4"></span></div>
+                alymo
+            </a>
+            <p>quatro amigos, quatro páginas.</p>
+        </div>
+        <div>
+            <h4>Páginas</h4>
+            <a href="index.html">início</a>
+            <a href="arthur.html">arthur</a>
+            <a href="lorenzoPagina.html">lorenzo</a>
+            <a href="yasmin.html">yasmin</a>
+            <a href="murilo.html">murilo</a>
+        </div>
+        <div>
+            <h4>Feito por</h4>
+            <p>Arthur Silva Ferraz</p>
+        </div>
+        <a href="#" class="topo">↑</a>
+    </footer>
+
 </body>
 </html>
