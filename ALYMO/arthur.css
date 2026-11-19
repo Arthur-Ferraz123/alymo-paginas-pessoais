@@ -11,7 +11,7 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #f4f1fb;
+    background: #fbf4f1;
     color: #1d1b29;
     padding: 14px;
     font-size: 15px;
@@ -37,7 +37,7 @@ section, nav, footer {
 
 /* a borda grossinha padrao (cada coisa so muda a cor) */
 section, nav, footer, .btn, .eu, .num, .card, figure img, .biscuits img, .lugar {
-    border: 2px solid #e2d9fb;
+    border: 2px solid #eee6d6;
     border-bottom-width: 6px;
     border-right-width: 6px;
 }
